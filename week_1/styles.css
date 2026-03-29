@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* HEADER */
+.global-header {
+    width: 100%;
+    position: absolute;
+    padding: 20px 50px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(198, 220, 255, 0.5);
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.plane-icon {
+    color: rgba(12, 81, 143, 1);
+    font-size: 62px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-text {
+    color: #FFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Alkatra', system-ui;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+/* FOOTER */
+.global-footer {
+    width: 100%;
+    padding: 40px 0; 
+    background-color: #FFF;
+    border-top: 1px solid #E0E0E0; 
+    margin-top: 50px; 
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content p {
+    color: rgba(12, 81, 143, 1);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
