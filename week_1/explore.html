@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-    <title>Coeliac Compass</title>
+    <title>Explore - Coeliac Compass</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Inter:wght@500;700;400;600&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Inter:wght@400;500;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
@@ -16,18 +15,248 @@
 <body>
     <header class="global-header">
         <nav class="navbar">
-            <div class="logo">
+            <a href="index.html" class="logo" style="text-decoration: none;">
                 <span class="material-symbols-outlined plane-icon">flightsmode</span>
                 <h1 class="logo-text">Coeliac Compass</h1>
-            </div>
+            </a>
             <ul class="nav-links">
-                <li><a href="#">Explore</a></li>
+                <li><a href="explore.html" class="active">Explore</a></li>
                 <li><a href="#">Allergy Card</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="explore-main">
+        <section class="city-group">
+            <div class="city-banner"
+                style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/sydney banner.jpg');">
+                <div class="banner-text">
+                    <h1>Sydney</h1>
+                    <h2>Australia</h2>
+                </div>
+            </div>
+            <div class="venue-grid">
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Wholegreen Bakery</h3>
+                            <span class="venue-tag">Bakery</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.9</p>
+                        <p class="address">257 Clarence St, Sydney NSW 2000</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1571942948809-74637bfc59b9?auto=format&fit=crop&w=600&q=80"
+                        alt="Bakery">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Nutie Donuts</h3>
+                            <span class="venue-tag">Cafe</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.7</p>
+                        <p class="address">13 Beattie St, Balmain NSW 2041</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?auto=format&fit=crop&w=600&q=80"
+                        alt="Cafe">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Gigi Pizzeria</h3>
+                            <span class="venue-tag">Restaurant</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.5</p>
+                        <p class="address">379 King St, Newtown NSW 2042</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80"
+                        alt="Restaurant">
+                </div>
+            </div>
+        </section>
+
+        <section class="city-group">
+            <div class="city-banner"
+                style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/tokyo banner.jpg');">
+                <div class="banner-text">
+                    <h1>Tokyo</h1>
+                    <h2>Japan</h2>
+                </div>
+            </div>
+            <div class="venue-grid">
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Rice 88</h3>
+                            <span class="venue-tag">Bakery</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.8</p>
+                        <p class="address">2 Chome-11-4 Horinouchi, Suginami City</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1583338917451-face2751d8d5?auto=format&fit=crop&w=600&q=80"
+                        alt="Bakery">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Gluten Free T's Kitchen</h3>
+                            <span class="venue-tag">Restaurant</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.9</p>
+                        <p class="address">7 Chome-8-5 Roppongi, Minato City</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=600&q=80"
+                        alt="Restaurant">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Cafe Littlebird</h3>
+                            <span class="venue-tag">Cafe</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.6</p>
+                        <p class="address">1 Chome-1-20 Tomigaya, Shibuya City</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80"
+                        alt="Cafe">
+                </div>
+            </div>
+        </section>
+
+        <section class="city-group">
+            <div class="city-banner"
+                style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/nyc banner.jpg');">
+                <div class="banner-text">
+                    <h1>New York City</h1>
+                    <h2>USA</h2>
+                </div>
+            </div>
+            <div class="venue-grid">
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Modern Bread & Bagel</h3><span class="venue-tag">Bakery</span>
+                        </div>
+                        <p class="rating">Safety Score: 5.0</p>
+                        <p class="address">472 Columbus Ave, New York, NY 10024</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1536782896453-61d09f3aaf3e?auto=format&fit=crop&w=600&q=80"
+                        alt="Bakery">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Senza Gluten</h3><span class="venue-tag">Restaurant</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.9</p>
+                        <p class="address">206 Sullivan St, New York, NY 10012</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=600&q=80"
+                        alt="Restaurant">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Posh Pop Bakeshop</h3><span class="venue-tag">Cafe</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.4</p>
+                        <p class="address">192 Bleecker St, New York, NY 10012</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1559305616-3f99cd43e353?auto=format&fit=crop&w=600&q=80"
+                        alt="Cafe">
+                </div>
+            </div>
+        </section>
+
+        <section class="city-group">
+            <div class="city-banner"
+                style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/london banner.jpg');">
+                <div class="banner-text">
+                    <h1>London</h1>
+                    <h2>England</h2>
+                </div>
+            </div>
+            <div class="venue-grid">
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Libby's Gluten Free</h3><span class="venue-tag">Bakery</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.9</p>
+                        <p class="address">41 Pembridge Rd, London W11 3HG</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1517433670267-08bbd4be890f?auto=format&fit=crop&w=600&q=80"
+                        alt="Bakery">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Indigo at One Aldwych</h3><span class="venue-tag">Restaurant</span>
+                        </div>
+                        <p class="rating">Safety Score: 5.0</p>
+                        <p class="address">1 Aldwych, London WC2B 4BZ</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&w=600&q=80"
+                        alt="Restaurant">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Leadbelly's Bar</h3><span class="venue-tag">Cafe</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.2</p>
+                        <p class="address">Montreal House, Deal Porter Way, London</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=600&q=80"
+                        alt="Cafe">
+                </div>
+            </div>
+        </section>
+
+        <section class="city-group">
+            <div class="city-banner"
+                style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('../images/paris banner.jpg');">
+                <div class="banner-text">
+                    <h1>Paris</h1>
+                    <h2>France</h2>
+                </div>
+            </div>
+            <div class="venue-grid">
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Chambelland</h3><span class="venue-tag">Bakery</span>
+                        </div>
+                        <p class="rating">Safety Score: 5.0</p>
+                        <p class="address">14 Rue Ternaux, 75011 Paris</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1705972018470-a89eda1c6ce4?auto=format&fit=crop&w=600&q=80"
+                        alt="Bakery">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Noglu</h3><span class="venue-tag">Restaurant</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.8</p>
+                        <p class="address">15 Rue Basfroi, 75011 Paris</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=600&q=80"
+                        alt="Restaurant">
+                </div>
+                <div class="venue-card">
+                    <div class="venue-info">
+                        <div class="venue-header">
+                            <h3>Helmut Newcake</h3><span class="venue-tag">Cafe</span>
+                        </div>
+                        <p class="rating">Safety Score: 4.7</p>
+                        <p class="address">28 Rue Vignon, 75009 Paris</p>
+                    </div>
+                    <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?auto=format&fit=crop&w=600&q=80"
+                        alt="Cafe">
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="global-footer">
@@ -35,8 +264,6 @@
             <p>Copyright &copy;2026 · Coeliac Compass</p>
         </div>
     </footer>
-
-
 </body>
 
 </html>
