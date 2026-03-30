@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Allergy Card - Coeliac Compass</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Inter:wght@400;500;700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-
 <body>
     <header class="global-header">
         <nav class="navbar">
@@ -20,14 +16,55 @@
                 <h1 class="logo-text">Coeliac Compass</h1>
             </a>
             <ul class="nav-links">
-                <li><a href="explore.html" class="active">Explore</a></li>
-                <li><a href="allergy_card.html">Allergy Card</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="#" class="active">Allergy Card</a></li>
             </ul>
         </nav>
     </header>
 
-    <main class="explore-main">
-        
+    <main>
+        <section class="card-hero">
+            <div class="hero-overlay">
+                <h1>Coeliac Disease Card</h1>
+            </div>
+        </section>
+
+        <section class="card-display-section">
+            <div class="allergy-card">
+                <h2>I have Coeliac Disease (Severe Gluten Allergy)</h2>
+                
+                <p>I cannot eat any foods containing gluten, even in very small amounts. <br>
+                Please ensure my meal contains <strong>NO</strong>:</p>
+                
+                <ul class="avoid-list">
+                    <li>wheat</li>
+                    <li>barley</li>
+                    <li>rye</li>
+                    <li>regular flour</li>
+                    <li>breadcrumbs</li>
+                    <li>soy sauce (unless gluten-free)</li>
+                </ul>
+
+                <div class="important-note">
+                    <p><strong>Important:</strong></p>
+                    <p>My food must also <strong>avoid cross-contamination</strong>. <br>
+                    Please prepare it using <strong>clean utensils, surfaces, and cooking oil</strong> that have not touched gluten.</p>
+                </div>
+
+                <div class="safe-foods">
+                    <p>Safe foods usually include:</p>
+                    <ul>
+                        <li>plain meat or fish</li>
+                        <li>vegetables</li>
+                        <li>rice</li>
+                        <li>potatoes</li>
+                        <li>gluten-free products</li>
+                    </ul>
+                </div>
+
+                <p class="thank-you">Thank you for helping keep my meal safe.</p>
+            </div>
+        </section>
     </main>
 
     <footer class="global-footer">
@@ -36,5 +73,4 @@
         </div>
     </footer>
 </body>
-
 </html>
